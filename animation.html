@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      div {
+        width: 50px;
+        height: 50px;
+        margin: auto;
+        margin-top: 200px;
+        background-color: brown;
+        position: relative;
+        animation-name: daniel;
+        animation-duration: 5s;
+        animation-iteration-count: infinite;
+      }
+      @keyframes daniel {
+        0% {
+          left: 0;
+        }
+        25% {
+          left: 00px;
+          top: 0;
+          background-color: cyan;
+          transform: rotate(1500deg);
+          box-shadow: 50px 0 green, 0 -50px blue;
+        }
+        50% {
+          left: 00px;
+          top: 00px;
+          background-color: rebeccapurple;
+          transform: rotate(1500deg);
+          box-shadow: 50px 0 green, 0 -50px blue, -50px 0 maroon;
+        }
+        75% {
+          left: 0;
+          top: 00px;
+          background-color: darkblue;
+          transform: rotate(1500deg);
+          box-shadow: 50px 0 green, 0 -50px blue, -50px 0 maroon,
+          0 50px coral;
+        }
+        100% {
+          left: 0;
+          top: 0;
+          background-color: lime;
+          transform: rotate(250deg);
+          box-shadow: 0 0;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div></div>
+  </body>
+</html>
